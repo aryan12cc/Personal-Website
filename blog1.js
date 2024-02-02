@@ -42,10 +42,10 @@ document.addEventListener('DOMContentLoaded', function() {
         if(document.body.classList.contains('light-theme') === false) {
             document.body.classList.add('light-theme');
         }
-        document.getElementById('light-dark-mode').innerHTML = "<img src='/images/moon.png'>";
-        document.getElementById('linkedin-link').innerHTML = "<img src='/images/linkedin-light.png'>";
-        document.getElementById('github-link').innerHTML = "<img src='/images/github-light.png'>";
-        document.getElementById('email-link').innerHTML = "<img src='/images/email-light.png'>";
+        document.getElementById('light-dark-mode').innerHTML = "<img src='./images/moon.png'>";
+        document.getElementById('linkedin-link').innerHTML = "<img src='./images/linkedin-light.png'>";
+        document.getElementById('github-link').innerHTML = "<img src='./images/github-light.png'>";
+        document.getElementById('email-link').innerHTML = "<img src='./images/email-light.png'>";
         if(numClicks % 2 == 0) {
             console.log('light mode');
             heartClickId.style.borderImage = "radial-gradient(black 69%, #0000 70%) 84.5%/50%";
@@ -60,10 +60,10 @@ document.addEventListener('DOMContentLoaded', function() {
         if(document.body.classList.contains('light-theme') === true) {
             document.body.classList.remove('light-theme');
         }
-        document.getElementById('light-dark-mode').innerHTML = "<img src='/images/sun.png'>";
-        document.getElementById('linkedin-link').innerHTML = "<img src='/images/linkedin.png'>";
-        document.getElementById('github-link').innerHTML = "<img src='/images/github.png'>";
-        document.getElementById('email-link').innerHTML = "<img src='/images/email.png'>";
+        document.getElementById('light-dark-mode').innerHTML = "<img src='./images/sun.png'>";
+        document.getElementById('linkedin-link').innerHTML = "<img src='./images/linkedin.png'>";
+        document.getElementById('github-link').innerHTML = "<img src='./images/github.png'>";
+        document.getElementById('email-link').innerHTML = "<img src='./images/email.png'>";
         if(numClicks % 2 == 0) {
             console.log('dark mode');
             heartClickId.style.borderImage = "radial-gradient(white 69%, #0000 70%) 84.5%/50%";
