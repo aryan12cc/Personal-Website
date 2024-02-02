@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Blog 1 </title>
+        <link rel="stylesheet" href="blog1.css">
+    </head>
+    <body>
+        <nav>
+            <ul class="left-items">
+                <li>
+                    <a id="current-navbar-item" href="home.html#about" target="_blank"> About </a>
+                </li>
+                <li> 
+                    <a href="home.html#education" target="_blank"> Education </a>
+                </li>
+                <li> 
+                    <a href="home.html#achievements" target="_blank"> Achievements </a>
+                </li>
+                <li> 
+                    <a href="home.html#skills" target="_blank"> Skills </a>
+                </li>
+                <li> 
+                    <a href="home.html#blogs" target="_blank"> Blog </a>
+                </li>
+            </ul>
+            <ul class="right-items">
+                <li>
+                    <a id="light-dark-mode" style="cursor: pointer">
+                        <img src="/images/sun.png">
+                    </a>
+                </li>
+                <li>
+                    <a id="github-link" href="https://github.com/aryan12cc" target="_blank">
+                        <!-- Github -->
+                        <img src="/images/github.png">
+                    </a>
+                </li>
+                <li>
+                    <a id="linkedin-link" href="https://www.linkedin.com/in/aryan-maskara-804714277/" target="_blank">
+                        <!-- Linkedin -->
+                        <img src="/images/linkedin.png">
+                    </a>
+                </li>
+                <li>
+                    <a id="email-link" href="mailto:aryan.maskara@gmail.com" target="_blank">
+                        <!-- Email -->
+                        <img src="/images/email.png">
+                    </a>
+                </li>
+                <li>
+                    <a id="hide-status-bar" class="profile-picture" href="index.html"> 
+                        Aryan Maskara
+                    </a>
+                </li>
+            </ul>
+        </nav>
+
+        <div class="blog-header">
+            <h2> Blog 1 </h2>
+            <p>
+                Morbi efficitur interdum ipsum et finibus. Curabitur eros lectus, eleifend quis sapien sit amet, ultricies commodo ex. Donec ex massa, fermentum vel ligula vel, finibus aliquam est. Nam rutrum sit amet ex a feugiat. Morbi nisi enim, vehicula id nisl vitae, sollicitudin tincidunt dui. Nulla sit amet bibendum enim. Aenean mollis quis eros in aliquam. Nulla nulla nibh, varius eu tempor eu, tempor quis erat. Ut consequat ipsum quis accumsan ullamcorper.
+            </p>
+            <p>
+                Praesent ac mi in neque viverra molestie non quis urna. Vestibulum mollis tempus velit, eget rutrum ligula ultrices non. Aliquam porttitor vestibulum erat sit amet placerat. Nulla sit amet justo nec velit congue mattis. Suspendisse quis ex at magna aliquam pellentesque sit amet vel est. Etiam gravida ut quam vel pellentesque. Ut nec ultricies arcu. Pellentesque ornare est a venenatis efficitur. Nulla gravida non nisi vel hendrerit. Sed gravida maximus mattis. Morbi hendrerit quis justo vel aliquet.
+            </p>
+            <p>
+                Pellentesque quis eleifend leo. Ut augue ipsum, ultricies ut rutrum at, ultricies vel lorem. In lacinia ex non leo euismod, eget consectetur orci ultricies. Donec eu est nibh. Donec ut velit vitae nunc accumsan pharetra. Vivamus a turpis nibh. Sed leo est, vulputate nec sapien ultrices, interdum auctor tortor. Sed nulla augue, vehicula sed luctus ut, fringilla quis risus. Fusce mollis eu augue et blandit.
+            </p>
+            <p>
+                Aenean facilisis magna id ipsum gravida vestibulum. Praesent ullamcorper nulla non orci malesuada iaculis. Sed at tortor dolor. Integer ut purus sem. Phasellus pharetra malesuada lorem, id tincidunt diam finibus nec. Fusce aliquet augue id fermentum vulputate. Ut ante nisi, tempus in metus eget, mattis commodo neque.
+            </p>
+            <p>
+                Proin mauris ex, vulputate eget venenatis id, laoreet sed mauris. Phasellus scelerisque massa porttitor bibendum auctor. Quisque ultrices ipsum vitae urna suscipit, fermentum facilisis elit aliquam. Curabitur velit diam, varius eu ligula quis, lacinia lobortis ipsum. Nullam vitae finibus ipsum, ut gravida nulla. Fusce ligula arcu, malesuada id tortor in, feugiat molestie ligula. Curabitur vehicula risus vitae condimentum tristique. Maecenas volutpat erat varius, imperdiet arcu et, convallis felis. Nulla sit amet bibendum felis, eget consequat ligula. Nulla vulputate ipsum ex, at blandit metus convallis vitae. Nam cursus quam sit amet dui elementum, ac placerat mauris finibus. Vivamus tempus ut neque vel pretium.
+            </p>
+        </div>
+        <div class="like-counter" id="like-counter">
+            <a class="heart" id="heart" href="#"> </a>
+            <p id="like-counter-text"> 
+                0 
+            </p>
+        </div>
+
+        <div class="comment-section" id="comment-section">
+            <div class="comment-heading" id="comment-heading">
+                <h2> 
+                    Add your comment
+                </h2>
+            </div>
+            <div class="comment-area" id="comment-area">
+                <form id="comment-form">
+                    <textarea class="comment-input" id="comment-input" rows="10" placeholder="Enter your comment here..."> </textarea>
+                    <button class="comment-submit-button" id="comment-submit-button" type="submit"> 
+                        Submit Comment 
+                    </button>
+                </form>
+            </div>
+            <div class="other-comments" id="other-comments">
+                <div class="other-comments-heading" id="other-comments-heading">
+                    <h2> Other Comments </h2>
+                </div>
+                <div class="other-comments-area" id="other-comments-area">
+                    <!-- JS shit goes here -->
+                </div>
+            </div>
+        </div>
+
+        <div class="previous-comments" id="previous-comments">
+
+        </div>
+    </body>
+    <script src="blog1.js"> </script>
+</html>

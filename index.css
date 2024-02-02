@@ -1,0 +1,91 @@
+@font-face {
+  font-family: 'noto-sans-font';
+  src: url('/fonts/NotoSans-Italic-VariableFont_wdth\,wght.ttf') format('woff2');
+  /* src: url('/fonts/PixelifySans-VariableFont_wght.ttf') format('woff2'); */
+  font-weight: normal;
+  font-style: normal;
+}
+
+:root {
+  --background-color-body: black;
+  --color-loading: lightgrey;
+  --color-progress-bar-centered-item: lightgrey;
+}
+
+.light-theme {
+  --background-color-body: white;
+  --color-loading: grey;
+  --color-progress-bar-centered-item: black;
+}
+
+a {
+  display: inline-flex;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: var(--background-color-body);
+}
+
+.centered-item-container {
+  max-width: 100%;
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.centered-item {
+  color: var(--color-progress-bar-centered-item);
+  /* font-family: 'pixelated-font', sans-serif; */
+  /* font-family: 'Times New Roman', Times, serif; */
+  /* font-family: 'Courier New', Courier, monospace; */
+  font-family: 'noto-sans-font', sans-serif;
+  font-size: 50px;
+}
+
+.loading-text-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: lightgrey;
+  position: relative;
+  padding-top: 10%;
+  max-width: 100%;
+  height: 2px;
+}
+
+.loading-text {
+  color: var(--color-loading);
+  /* font-family: 'pixelated-font', sans-serif; */
+  /* font-family: 'Courier New', Courier, monospace; */
+  font-family: 'noto-sans-font', sans-serif;
+  font-size: 30px;
+}
+
+.progress-bar-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 2%;
+  height: 10px;
+  width: 80%;
+  background-color: var(--background-color-body);
+}
+
+.progress-bar {
+  height: 100%;
+  width: 0%;
+  background-color: var(--color-progress-bar-centered-item);
+}
