@@ -200,7 +200,7 @@ nav a {
     flex-basis: 15%;
     margin-right: 2%;
     justify-content: center;
-    border: 1px solid var(--border-skills);
+    border-left: 1px solid var(--border-skills);
 }
 
 .about, .education {
