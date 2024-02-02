@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'noto-sans-font';
-    src: url('/fonts/NotoSans-Italic-VariableFont_wdth\,wght.ttf') format('woff2');
+    src: url('./fonts/NotoSans-Italic-VariableFont_wdth\,wght.ttf') format('woff2');
     /* src: url('/fonts/PixelifySans-VariableFont_wght.ttf') format('woff2'); */
     font-weight: normal;
     font-style: normal;
