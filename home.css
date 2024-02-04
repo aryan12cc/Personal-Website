@@ -121,6 +121,7 @@ nav a {
     justify-content: center;
     color: var(--color-h2-h3);
     align-items: center;
+    font-size: 3vh;
 }
 
 .content {
@@ -169,6 +170,7 @@ nav a {
 
 .steps li h4 a, .achievements li h4 a, .skills li h4 a {
     color: var(--color-h4-a);
+    font-size: 2vh;
 }
 
 .side-view {
@@ -181,24 +183,27 @@ nav a {
 }
 
 .side-view section h2 {
+    font-size: 3vh;
     display: flex;
     justify-content: center;
     color: var(--color-h2-h3);
 }
 
 .achievements, .skills {
-    margin-left: 2%;
     padding: 2%;
     /* border: 1px solid white; */
 }
 
 .achievements {
+    margin-left: 1%;
     flex-basis: 85%;
 }
 
 .skills {
-    flex-basis: 15%;
+    flex-basis: 25%;
+    margin-left: 2%;
     margin-right: 2%;
+    padding-right: 2%;
     justify-content: center;
     border-left: 1px solid var(--border-skills);
 }
@@ -220,6 +225,7 @@ nav a {
 
 .multiple-blogs {
     display: flex;
+    flex-direction: row;
     justify-content: center;
 }
 
@@ -232,8 +238,10 @@ nav a {
     padding: 2%;
     border-radius: 5%;
     background-color: var(--background-blogs);
-    max-width: 20%;
+    max-width: 35%;
     text-align: center;
+    display: flex;
+    justify-content: center;
 }
 
 .blogs-h3 {
@@ -243,48 +251,11 @@ nav a {
 }
 
 .blog1 a, .blog2 a {
+    font-size: 2vh;
     text-decoration: none;
     color: var(--color-body);
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
-}
-
-@media only screen and (max-width: 600px) {
-    nav {
-        flex-direction: column;
-        align-items: flex-start;
-        height: auto;
-    }
-
-    nav ul {
-        width: 100%;
-        text-align: left;
-    }
-
-    nav li {
-        width: 100%;
-        box-sizing: border-box;
-        text-align: left;
-    }
-
-    .right-items, .left-items {
-        width: 100%;
-        justify-content: flex-start;
-    }
-
-    nav a {
-        padding: 1.5vh 2vw;
-    }
-
-    #profile-picture img {
-        max-width: 50px;
-        max-height: 50px;
-        margin-right: 0;
-    }
-
-    .left-items, .right-items {
-        margin: 10px 0;
-    }
 }

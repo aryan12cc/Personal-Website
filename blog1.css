@@ -107,6 +107,7 @@ nav a {
 }
 
 h2 {
+    font-size: 3vh;
     display: flex;
     justify-content: center;
     color: var(--color-h2-h3);
@@ -174,46 +175,4 @@ h2 {
     background-color: var(--background-color);
     color: var(--color-body);
     outline: none;
-}
-
-@media only screen and (max-width: 600px) {
-    nav {
-        flex-direction: column;
-        align-items: flex-start;
-        height: auto;
-    }
-
-    nav ul {
-        width: 100%;
-        text-align: left;
-    }
-
-    nav li {
-        width: 100%;
-        box-sizing: border-box;
-        text-align: left;
-    }
-
-    .right-items, .left-items {
-        width: 100%;
-        justify-content: flex-start;
-    }
-
-    nav a {
-        padding: 1.5vh 2vw;
-    }
-
-    #profile-picture img {
-        max-width: 50px;
-        max-height: 50px;
-        margin-right: 0;
-    }
-
-    .left-items, .right-items {
-        margin: 10px 0;
-    }
-
-   .heart {
-        max-width: 5%;
-   }
 }
